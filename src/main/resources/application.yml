@@ -1,0 +1,12 @@
+#App
+server:
+ port: 8081
+ servlet.context-path: /app
+
+ 
+ #Constatnts
+weather:
+ url.base: "https://samples.openweathermap.org/data/2.5/weather?id={0}&appid={1}"
+ url.appId: "b1b15e88fa797225412429c1c50c122a1"
+ format.12h: "hh.mm a"
+ format.decimal: "###.##"
